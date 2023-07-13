@@ -1,0 +1,187 @@
+.main__first-section {
+  width: 1170px;
+  height: 323px;
+  border-radius: 30px;
+  justify-content: center;
+  text-align: center;
+  padding: 5.4rem 6.4rem 5.4rem 9.2rem;
+  border-radius: 3rem;
+  background-color: $white-color;
+  position: relative;
+  top: -14rem;
+  box-shadow: 0px 73px 80px 0px #0000000f;
+
+  .first-section__heading {
+    color: $cyan-color;
+    margin-bottom: 6rem;
+  }
+  .first-section__wrapper {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 19rem;
+  }
+  .wrapper__card__heading {
+    color: $cyan-color;
+  }
+  .wrapper__card__text {
+    font-size: 1.6rem;
+    color: $cyan-color;
+  }
+}
+
+.service {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rem;
+  .service__title {
+    font-family: $secondary-font;
+    text-decoration: underline;
+    color: $cyan-color;
+    margin-bottom: 3rem;
+  }
+  .service__heading {
+    margin-right: auto;
+    margin-left: auto;
+    width: 51rem;
+    color: $cyan-color;
+    margin-bottom: 7rem;
+  }
+  .service__card-wrapper {
+    width: 1170px;
+    height: 251px;
+    gap: 2.6rem;
+    display: flex;
+    .card-wrapper__item {
+      width: 273px;
+      height: 251px;
+      box-shadow: 0px 41.777610778808594px 33.422088623046875px 0px #0000000d;
+      padding: 1rem 2rem;
+
+      margin-bottom: 2.5rem;
+      .card__wrapper__image {
+        margin-bottom: 3.6rem;
+      }
+      .card-wrapper__heading {
+        margin-bottom: 1rem;
+      }
+      .card__wrapper__text {
+        color: #696969;
+        margin-bottom: 1rem;
+        width: 215px;
+        height: 73px;
+        &:hover {
+          background-color: $cyan-color;
+          color: $white-color;
+        }
+      }
+      &:hover {
+        background-color: $cyan-color;
+        color: $white-color;
+      }
+    }
+  }
+}
+
+.portfolio {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  .portfolio__heading {
+    margin-bottom: 1rem;
+    color: $cyan-color;
+  }
+  .portfolio__text {
+    color: $cyan-color;
+    width: 570px;
+    margin-bottom: 6rem;
+  }
+  .portfolio__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14rem;
+    .portfolio__card-first {
+      .portfolio__card-image {
+        margin-bottom: 4rem;
+      }
+      .portfolio__card__heading {
+        margin-bottom: 1rem;
+        width: 227px;
+        color: $cyan-color;
+      }
+      .portfolio__card__text {
+        width: 426px;
+        color: $cyan-color;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+
+.bottom {
+  background-color: $cyan-color;
+  .bottom__container {
+    display: flex;
+    align-items: center;
+    padding: 10.2rem 0;
+    .bottom__content {
+      .bottom__content__image {
+        width: 50px;
+        margin-bottom: 3.2rem;
+        height: 30px;
+      }
+      .bottom__content__text {
+        color: $white-color;
+        margin-bottom: 3.3rem;
+      }
+      .bottom__content__text-second {
+        color: #aabfc6;
+      }
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  gap: 16rem;
+  padding: 10rem;
+  .footer__socials {
+    .footer__logo {
+      margin-bottom: 2rem;
+    }
+    .footer__list {
+      display: flex;
+      gap: 1.2rem;
+      .footer__item {
+      }
+    }
+  }
+  .footer__pages {
+    width: 73px;
+    height: 236px;
+  }
+  .footer__services {
+    width: 113px;
+    height: 236px;
+  }
+  .footer__contact {
+    width: 208px;
+    height: 198px;
+  }
+  p {
+    width: 344px;
+    color: $main-text-color;
+    margin-bottom: 5.5rem;
+  }
+  h3 {
+    color: $cyan-color;
+    margin-bottom: 2.8rem;
+  }
+  a {
+    color: $main-text-color;
+  }
+  li:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}

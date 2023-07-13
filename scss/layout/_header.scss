@@ -1,0 +1,79 @@
+.header {
+    background-color: $hero-header-bg;
+    background-image: url('../images/hero-blur-image-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__top__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+.header__hero__content{
+    margin-right: 3.4rem;
+}
+
+.sitenav__list {
+    display: flex;
+    gap: 5rem;
+
+    a {
+        color:$link-color;
+        transition: 0.3s;
+        position: relative;
+
+        &:hover {
+            color:$orange-color;
+        }
+
+        &::before {
+            display: inline-block;
+            content:'';
+            position: absolute;
+            height: 2px;
+            width: 0%;
+            bottom:0;
+            background:$link-color;
+            transition: 0.3s;
+        }
+
+        &:hover::before {
+            width: 100%;
+        }
+        
+       
+        
+    }
+}
+.header__hero__container {
+    display: flex;
+    align-items: center;
+
+}
+.header__hero__container__name {
+    font-family: $secondary-font;
+    border-radius: 3rem;
+    border: $cyan-color;
+    margin-bottom: 4rem;
+}
+.header__hero__container__heading {
+    color:$white-color;
+    margin-bottom: 3rem;
+}
+.header__hero__container__text {
+    color: $hero-text;
+    margin-bottom: 5rem;
+}
+.header__hero__container__my-work {
+    color: $main-text-color;
+    margin-left: 5rem;
+}
+.header__hero__container__link__second{
+    background-color: $orange-color;
+}
+.header__hero__container__image {
+    margin-bottom: 24.8rem;
+}
